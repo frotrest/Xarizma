@@ -1,0 +1,109 @@
+.halls {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url('@assets/hall.webp') no-repeat right / auto;
+}
+
+@media (max-width: 1280px) {
+  .halls {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+
+.hallsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 65px;
+}
+
+@media (max-width: 1280px) {
+  .hallsContent {
+    gap: 15px;
+  }
+}
+
+.hallsContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-style: Black;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 82px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+  .hallsContentTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Muller';
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+  }
+}
+
+.hallsContentItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+  .hallsContentItem {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Muller';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+  }
+}
+
+.hallsContentBtn {
+  color: rgba(37, 33, 33, 1);
+  font-family: 'Muller';
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  border-radius: 60px;
+  padding: 25px 40px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(
+    141.56deg,
+    rgba(234, 66, 42, 1) 0%,
+    rgba(246, 144, 32, 1) 48.578%,
+    rgba(255, 198, 25, 1) 101.38%
+  );
+}
+
+@media (max-width: 1280px) {
+  .hallsContentBtn {
+    color: rgba(37, 33, 33, 1);
+    font-family: 'Muller';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    padding: 20px 40px;
+  }
+}
+
+.hallsContentBtn:hover {
+  opacity: 1;
+}

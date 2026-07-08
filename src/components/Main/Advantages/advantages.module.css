@@ -1,0 +1,170 @@
+.advantages {
+  padding-top: 100px;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .advantages {
+    padding-top: 60px;
+  }
+}
+
+.advantagesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.advantagesContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-style: Black;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 82px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+  .advantagesContentTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Muller';
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 3%;
+    width: 310px;
+    text-transform: uppercase;
+  }
+}
+
+.advantagesContentItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+  .advantagesContentItem {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Muller';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+  }
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1280px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+}
+
+.card {
+  background: rgba(40, 43, 50, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 50px;
+  width: 395px;
+  height: 330px;
+}
+
+@media (max-width: 1280px) {
+  .card {
+    width: 140px;
+    height: auto;
+    padding: 15px;
+  }
+}
+
+.card:nth-child(even) {
+  background: rgba(32, 33, 36, 1);
+}
+
+.cardTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+@media (max-width: 1280px) {
+  .cardTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Muller';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 3%;
+  }
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(197, 197, 197, 1);
+  font-family: 'Muller';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  list-style: none;
+}
+
+.point > span {
+  width: 300px;
+}
+
+@media (max-width: 1280px) {
+  .point {
+    color: rgba(197, 197, 197, 1);
+    font-family: 'Muller';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 3%;
+  }
+
+  .point > span {
+    width: 95px;
+  }
+}
+
+.highlight {
+  color: #e8954a;
+  font-weight: 600;
+}

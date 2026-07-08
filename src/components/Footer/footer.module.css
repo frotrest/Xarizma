@@ -1,0 +1,101 @@
+.footer {
+  background: rgba(19, 21, 23, 1);
+  padding-top: 125px;
+  padding-bottom: 110px;
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+
+.footerNavBar {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+@media (max-width: 1280px) {
+  .footerNavBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footerContentImg {
+    width: 140px;
+    height: 28px;
+    object-fit: cover;
+  }
+}
+
+.footerNavBarBlockItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footerImgBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.07);
+  padding: 10px;
+}
+
+.footerNavBarLink {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+  opacity: 0.8;
+  letter-spacing: 3%;
+  transition: opacity 0.3s ease;
+}
+
+.footerNavBarLink:hover {
+  opacity: 1;
+}
+
+.footerContentBtn {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muller';
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 1px solid rgba(246, 144, 32, 1);
+  border-radius: 40px;
+  padding: 20px 40px;
+  background: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footerContentBtn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
