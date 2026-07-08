@@ -98,7 +98,6 @@
   font-weight: 800;
   line-height: 24px;
   letter-spacing: 3%;
-  width: 220px;
 }
 
 .iconWrapper {
@@ -160,5 +159,9 @@
 
   .accordionBody {
     padding: 0px 15px 15px 15px;
+  }
+
+  .questionText {
+    width: 220px;
   }
 }
