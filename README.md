@@ -1,18 +1,27 @@
-# React + Vite
+# Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Xarizma** is a high-quality pet project for a premium karaoke where users are able to rent a hall for parties, events, and gatherings with their acquaintances or friends. This project is designed as a learning
+project that showcases practical React patterns, a clean modern UI, and
+solid frontend architecture.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Represents a modern, rich interface for customers for so called "Parties".
 
-## React Compiler
+Performance-First Animations: Features custom, lightweight scroll animations without relying on heavy third-party libraries.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+**Core Functionality**
 
-## Expanding the ESLint configuration
+Custom Animation Hook: Instead of bloating the bundle with heavy animation libraries, I implemented a custom React hook backed by the IntersectionObserver to trigger smooth scroll-driven entries.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Scoped CSS: Used CSS Modules to ensure strict encapsulation of styles, preventing global scope pollution and making components truly modular.
+
+## The summary of tools that I used
+
+**React**
+
+**Animations**
+
+**CSS Modules**
